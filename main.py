@@ -1,10 +1,9 @@
 from readFile import readFile
-
+from greedy.deterministic import greedy_deterministic
 
 cases = readFile("cases/case1.txt")
 
-
-for i in range(len(cases)):
-        print("\nCaso ", i+1)
-        print("Para cada Avión: ", cases[i][0])
-        print("Tiempo de Separación: ", cases[i][1])        
+for i, case in enumerate(cases):
+    orden, costo = greedy_deterministic(case, num_runways=2)
+    print("\nOrden de aterrizaje:", orden)
+    print("Costo total:", costo)
