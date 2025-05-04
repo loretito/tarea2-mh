@@ -34,4 +34,9 @@ def readFile(filePath):
         if cont == False:
             allCases.append([forEachPlane, timeApart])
 
-    return allCases
+
+    aviones = [c[0] for c in allCases]
+    separacion = [c[1] for c in allCases]
+    cases = [[aviones, separacion]]  
+    
+    return cases
