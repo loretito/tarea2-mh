@@ -11,3 +11,6 @@ Cada avión tiene definido un intervalo de tiempo para aterrizar (tiempo más te
 1. Greedy determinista y estocástico
 2. GRASP con HC mejor-mejora
 3. Tabu Search
+
+## Funcionamiento del código
+
