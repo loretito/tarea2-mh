@@ -8,7 +8,7 @@ Cada avión tiene definido un intervalo de tiempo para aterrizar (tiempo más te
 
 ## Soluciones Implementadas
 
-1. Greedy determinista y estocástico
+1. Greedy determinista y estocástico (10 iteraciones)
 2. GRASP con HC mejor-mejora
 3. Tabu Search
 
