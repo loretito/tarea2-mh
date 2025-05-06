@@ -1,10 +1,11 @@
-def greedy_deterministic(case, num_runways=1):
+def greedy_deterministic(case, num_runways=1, test=False):
     airplane, separation = case
     D = len(airplane)
 
     order = sorted(range(D), key=lambda k: airplane[k][1]) 
 
-    print("Cantidad de Pistas:", num_runways)
+    if test == False:
+        print("Cantidad de Pistas:", num_runways)
 
     times = [None] * D
     runways = [[] for _ in range(num_runways)]
@@ -60,9 +61,10 @@ def greedy_deterministic(case, num_runways=1):
     BLUE = "\033[94m"
     RESET = "\033[0m"
 
-    print(f"\n=== Aterrizajes ===\n")
-    print(f"{'Avión':<11} {'Tiempo':<9} {'P':<12} {'Pista':<10} {'Penalización'}")
-    print("-" * 50)
+    if test == False:
+        print(f"\n=== Aterrizajes ===\n")
+        print(f"{'Avión':<11} {'Tiempo':<9} {'P':<12} {'Pista':<10} {'Penalización'}")
+        print("-" * 50)
 
     chronological_order = sorted(range(D), key=lambda i: times[i])
     for i in chronological_order:
@@ -75,9 +77,10 @@ def greedy_deterministic(case, num_runways=1):
         total_cost += penalty
 
         color = GREEN if penalty == 0 else RED
-        print(f"{BLUE}Avión {i:<2}{RESET}   "
-            f"{t:>6.1f}    ({sign} P={P:<5.1f})   "
-            f"{YELLOW}Pista {runway_i}{RESET:<4}    "
-            f"{color}{penalty:.1f}{RESET}")
+        if test == False:
+            print(f"{BLUE}Avión {i:<2}{RESET}   "
+                f"{t:>6.1f}    ({sign} P={P:<5.1f})   "
+                f"{YELLOW}Pista {runway_i}{RESET:<4}    "
+                f"{color}{penalty:.1f}{RESET}")
 
     return order, total_cost

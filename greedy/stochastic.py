@@ -4,7 +4,8 @@ from typing import List, Tuple
 def greedy_stochastic(case: Tuple[List[List[float]], List[List[float]]],
                       seed: int = None,
                       alpha: float = 0.3,
-                      num_runways: int = 1
+                      num_runways: int = 1,
+                      test: bool = False
                      ) -> Tuple[List[int], float]:
     airplanes, separation = case
     D = len(airplanes)
@@ -67,9 +68,10 @@ def greedy_stochastic(case: Tuple[List[List[float]], List[List[float]]],
     BLUE  = "\033[94m"
     RESET = "\033[0m"
 
-    print(f"\n=== Aterrizajes Estocásticos ===\n")
-    print(f"{'Avión':<11} {'Tiempo':<9} {'P':<12} {'Pista':<10} {'Penalización'}")
-    print("-" * 56)
+    if test == False:
+        print(f"\n=== Aterrizajes Estocásticos ===\n")
+        print(f"{'Avión':<11} {'Tiempo':<9} {'P':<12} {'Pista':<10} {'Penalización'}")
+        print("-" * 56)
 
     chronological = sorted(range(D), key=lambda i: times[i])
     for i in chronological:
@@ -82,12 +84,14 @@ def greedy_stochastic(case: Tuple[List[List[float]], List[List[float]]],
         runway_i = next(pi for pi, p in enumerate(runways) if i in p)
         color = GREEN if penalty == 0 else RED
 
-        print(f"{BLUE}Avión {i:<2}{RESET}   "
-              f"{t:>6.1f}    ({sign} P={P:<5.1f})   "
-              f"{YELLOW}Pista {runway_i}{RESET:<4}    "
-              f"{color}{penalty:.1f}{RESET}")
+        if test == False:
+            print(f"{BLUE}Avión {i:<2}{RESET}   "
+                f"{t:>6.1f}    ({sign} P={P:<5.1f})   "
+                f"{YELLOW}Pista {runway_i}{RESET:<4}    "
+                f"{color}{penalty:.1f}{RESET}")
 
-    print(f"\n Orden de aterrizaje: {order}")
-    print(f"Costo total: {total_cost:.1f}\n")
+    if test == False:
+        print(f"\n Orden de aterrizaje: {order}")
+        print(f"Costo total: {total_cost:.1f}\n")
 
     return order, total_cost
