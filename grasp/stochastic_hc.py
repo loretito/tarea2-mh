@@ -87,37 +87,44 @@ def grasp_stochastic_hc_restart(case: Tuple[List[List[float]], List[List[float]]
                                 alpha: float = 0.3,
                                 num_runways: int = 1,
                                 max_iter: int = 10,
-                                max_restarts: int = 3
+                                max_restarts: int = 3,
+                                test = False
                                ) -> Tuple[List[int], float]:
     airplanes, separation = case
     best_order: List[int] = []
     best_cost = float('inf')
 
     for rr in range(1, max_restarts + 1):
-        print(f"\n--- Restart {rr}/{max_restarts} ---")
+        if test == False:
+            print(f"\n--- Restart {rr}/{max_restarts} ---")
         base_seed = int(time.time() * 1000) % (10**8)
 
         for it in range(1, max_iter + 1):
-            print(f"\nIteración {it}/{max_iter}")
+            if test == False:
+                print(f"\nIteración {it}/{max_iter}")
             init_order, init_cost = greedy_stochastic(
                 case,
                 seed=base_seed + it,
                 alpha=alpha,
-                num_runways=num_runways
+                num_runways=num_runways,
+                test=test
             )
 
             hc_order, hc_cost = hill_climbing_best(
                 init_order, airplanes, separation, num_runways
             )
-            print(f"→ Tras HC: coste {init_cost:.1f} → {hc_cost:.1f}")
+            if test == False:
+                print(f"→ Tras HC: coste {init_cost:.1f} → {hc_cost:.1f}")
 
             if hc_cost >= init_cost:
-                print("⚠️  HC no mejoró la solución estocástica, forzando restart.")
+                if test == False:
+                    print("⚠️  HC no mejoró la solución estocástica, forzando restart.")
                 break
 
             if hc_cost < best_cost:
                 best_cost = hc_cost
                 best_order = hc_order[:]
 
-    print(f"\n✨ Mejor solución con GRASP estocastico HC con restart: {best_order} con coste {best_cost:.1f}\n")
+    if test == False:
+        print(f"\n✨ Mejor solución con GRASP estocastico HC con restart: {best_order} con coste {best_cost:.1f}\n")
     return best_order, best_cost

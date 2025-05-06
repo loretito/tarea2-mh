@@ -78,16 +78,17 @@ def hill_climbing(order, airplanes, separation, num_runways=1):
     return current, best_cost
 
 
-def grasp_deterministic_hc(case, num_runways=1, max_iter=1):
+def grasp_deterministic_hc(case, num_runways=1, max_iter=1, test=False):
     airplanes, separation = case
     best_order, best_cost = None, float('inf')
 
     for _ in range(max_iter):
         init_order, init_cost = greedy_deterministic(case, num_runways)
         hc_order, hc_cost   = hill_climbing(init_order, airplanes, separation, num_runways)
-        print(f"\n→ Tras HC: coste {init_cost:.1f} → {hc_cost:.1f}\n")
+        if test == False:
+            print(f"\n→ Tras HC: coste {init_cost:.1f} → {hc_cost:.1f}\n")
         if hc_cost < best_cost:
             best_order, best_cost = hc_order, hc_cost
-
-    print(f"✨ Mejor solución luego de GRASP con greedy determinista: {best_order} con coste {best_cost:.1f}")
+    if test == False:
+        print(f"✨ Mejor solución luego de GRASP con greedy determinista: {best_order} con coste {best_cost:.1f}")
     return best_order, best_cost
