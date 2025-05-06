@@ -83,7 +83,7 @@ def grasp_deterministic_hc(case, num_runways=1, max_iter=1, test=False):
     best_order, best_cost = None, float('inf')
 
     for _ in range(max_iter):
-        init_order, init_cost = greedy_deterministic(case, num_runways)
+        init_order, init_cost = greedy_deterministic(case, num_runways, test=True)
         hc_order, hc_cost   = hill_climbing(init_order, airplanes, separation, num_runways)
         if test == False:
             print(f"\n→ Tras HC: coste {init_cost:.1f} → {hc_cost:.1f}\n")

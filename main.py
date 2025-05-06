@@ -8,7 +8,7 @@ from grasp.stochastic_hc import grasp_stochastic_hc_restart
 cases = readFile("cases/case1.txt")
 
 for i, case in enumerate(cases):
-    order, cost = greedy_deterministic(case, num_runways=2)
+    order, cost = greedy_deterministic(case, num_runways=2, test=True)
     print("\nOrden de aterrizaje:", order)
     print("Costo total:", cost)        
 
@@ -19,7 +19,7 @@ for i, caso in enumerate(cases):
     for j in range(10):
         seed = int(time.time() * 1000) % (10**8) + j
         print("\nEjecución ", j+1)
-        order, cost = greedy_stochastic(caso, seed=seed, alpha=0.3, num_runways=2)
+        order, cost = greedy_stochastic(caso, seed=seed, alpha=0.3, num_runways=2, test=True)
         resultados.append((j + 1, order, cost))
         time.sleep(0.01)
 
@@ -33,7 +33,7 @@ for i, caso in enumerate(cases):
 
 for case in cases:
     print("=== GRASP DETERMINISTA ===")
-    order, cost = grasp_deterministic_hc(case, num_runways=2, max_iter=4)
+    order, cost = grasp_deterministic_hc(case, num_runways=2, max_iter=4, test=True)
     print("Solución final:", order)
     print("Coste final:", cost)
 
@@ -45,7 +45,8 @@ for idx, case in enumerate(cases, start=1):
         alpha=0.3,
         num_runways=2,
         max_iter=10,
-        max_restarts=3
+        max_restarts=3,
+        test=True
     )
     print("Solución final:", order)
     print("Coste final:", cost)
