@@ -27,6 +27,9 @@ def compare_algorithms(num_runways, case_file="1"):
         'greedy_sto_costs': [],  
         'greedy_det_time': [],
         'greedy_sto_times': [],  
+        'greedy_det_order': [],  
+        'greedy_sto_best_order': [],  
+        'greedy_sto_best_iter': []  
     }
 
     for idx, case in enumerate(cases, start=1):
@@ -38,10 +41,15 @@ def compare_algorithms(num_runways, case_file="1"):
         time_det = end_time - start_time
         print(f"{YELLOW}Greedy determinista:{RESET}")
         print(f"  Costo = {cost_det:.1f}, Tiempo = {time_det:.4f} segundos")
+        print(f"  Orden determinista: {order_det}")
 
         costs = []
         times = []
         orders = []
+        
+        best_sto_order = None
+        best_sto_iter = None
+        min_cost_sto = float('inf')  
         
         print(f"\n{YELLOW}Greedy estocástico:{RESET}")
         for run in range(1, 11):
@@ -56,17 +64,26 @@ def compare_algorithms(num_runways, case_file="1"):
             print(f"  Iteración {run:2d}: costo = {cost_sto:.1f}, tiempo = {run_time:.4f} segundos")
             time.sleep(0.01)  
 
+            if cost_sto < min_cost_sto:
+                min_cost_sto = cost_sto
+                best_sto_order = order_sto
+                best_sto_iter = run
+
         avg_cost_sto = np.mean(costs)
         avg_time_sto = np.mean(times)
 
         print(f"\nPromedio estocástico:")
         print(f"  Costo promedio  = {avg_cost_sto:.1f}, Tiempo promedio = {avg_time_sto:.4f} segundos\n")
+        print(f"  Mejor orden estocástico (Iteración {best_sto_iter}): {best_sto_order}")
 
         results['case'].append(f'Caso {case_file}')
         results['greedy_det_cost'].append(cost_det)
         results['greedy_sto_costs'].append(costs)  
         results['greedy_det_time'].append(time_det)
         results['greedy_sto_times'].append(times)  
+        results['greedy_det_order'].append(order_det)  
+        results['greedy_sto_best_order'].append(best_sto_order)  
+        results['greedy_sto_best_iter'].append(best_sto_iter)  
 
     df = pd.DataFrame(results)
 
