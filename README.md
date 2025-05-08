@@ -14,3 +14,17 @@ Cada avión tiene definido un intervalo de tiempo para aterrizar (tiempo más te
 
 ## Funcionamiento del código
 
+### Para probar los casos:
+Para probar el greedy ejecutar el siguiente comando:
+```bash
+python3 -m test.greedy
+```
+
+Se pedira ingresar el número de pistas (1 o 2) y el número de caso a probar (1-4). El código devolverá una comparación entre el greedy determinista y estocástico, mostrando el costo de cada uno y el tiempo de ejecución. Además, de graficos que muestran la evolución de los costos a lo largo de las iteraciones. 
+
+
+
+Para probar el Tabu Search ejecutar el siguiente comando:
+```bash
+python3 -m test.tabu
+```
