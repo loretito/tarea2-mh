@@ -22,7 +22,11 @@ python3 -m test.greedy
 
 Se pedira ingresar el número de pistas (1 o 2) y el número de caso a probar (1-4). El código devolverá una comparación entre el greedy determinista y estocástico, mostrando el costo de cada uno y el tiempo de ejecución. Además, de graficos que muestran la evolución de los costos a lo largo de las iteraciones. 
 
-
+Para probar el GRASP ejecutar el siguiente comando:
+```bash
+python3 -m test.grasp
+```
+Al igual que en el test anterior, se pedira ingresar el número de pistas (1 o 2) y el número de caso a probar (1-4). El código realizará una comparación entre GRASP con Greedy Determinista y GRASP con Greedy Estocástico (ambos con Hill Climbing, utilizando la técnica de mejor mejora). El código devolverá el costo y el tiempo de ejecución de cada uno de los métodos, además de generar gráficos que muestren la evolución de los costos a lo largo de las iteraciones.
 
 Para probar el Tabu Search ejecutar el siguiente comando:
 ```bash
