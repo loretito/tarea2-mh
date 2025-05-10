@@ -53,7 +53,7 @@ def compare_tabu_search(num_runways, case_file="1"):
                                               num_runways=num_runways,
                                               max_iter=50,
                                               tabu=tabu_size,
-                                              config=2)
+                                              config=1)
             time_ts = process_time() - start_ts
             print(f"Tabu Estocástico: costo = {cost_sto_tabu:.1f}, tiempo = {time_ts:.4f} s\n")
             print(f"Orden: {order}\n")

@@ -1,0 +1,46 @@
+Ingrese el número de pistas (1 o 2): 1
+Ingrese el número del archivo de caso: 2
+
+=== Caso 2 ===
+Semilla Determinista: costo = 2870.0, tiempo = 0.0028 s
+Semilla Estocástica: costo = 10020.0, tiempo = 0.0024 s
+
+--- Tamaño de lista tabú: 5 ---
+Tabu Determinista: costo = 2330.0, tiempo = 4.0726 s
+Orden: [0, 5, 7, 3, 11, 9, 8, 10, 18, 2, 19, 1, 6, 14, 4, 17, 13, 16, 12, 15]
+
+Tabu Estocástico: costo = 5640.0, tiempo = 3.7904 s
+
+Orden: [0, 7, 3, 8, 5, 11, 10, 9, 18, 19, 2, 6, 4, 1, 14, 16, 13, 17, 12, 15]
+
+--- Tamaño de lista tabú: 15 ---
+Tabu Determinista: costo = 2870.0, tiempo = 4.0257 s
+Orden: [0, 5, 7, 3, 11, 9, 8, 10, 2, 18, 19, 1, 6, 14, 4, 17, 13, 12, 16, 15]
+
+Tabu Estocástico: costo = 4990.0, tiempo = 3.6103 s
+
+Orden: [0, 5, 3, 11, 7, 10, 9, 8, 18, 19, 1, 6, 2, 14, 13, 4, 17, 12, 16, 15]
+
+--- Tamaño de lista tabú: 20 ---
+Tabu Determinista: costo = 2870.0, tiempo = 4.1029 s
+Orden: [0, 5, 7, 3, 11, 9, 8, 10, 2, 18, 19, 1, 6, 14, 4, 17, 13, 12, 16, 15]
+
+Tabu Estocástico: costo = 6110.0, tiempo = 3.9377 s
+
+Orden: [0, 5, 7, 9, 3, 10, 11, 19, 8, 2, 18, 6, 14, 1, 4, 13, 16, 17, 12, 15]
+
+--- Tamaño de lista tabú: 25 ---
+Tabu Determinista: costo = 2290.0, tiempo = 4.0253 s
+Orden: [0, 5, 7, 3, 11, 9, 8, 10, 18, 2, 19, 1, 6, 14, 4, 17, 13, 12, 16, 15]
+
+Tabu Estocástico: costo = 8520.0, tiempo = 3.8909 s
+
+Orden: [5, 3, 7, 8, 9, 10, 18, 0, 11, 2, 1, 6, 14, 4, 19, 17, 13, 12, 16, 15]
+
+--- Tamaño de lista tabú: 30 ---
+Tabu Determinista: costo = 2870.0, tiempo = 4.0599 s
+Orden: [0, 5, 7, 3, 11, 9, 8, 10, 2, 18, 19, 1, 6, 14, 4, 17, 13, 12, 16, 15]
+
+Tabu Estocástico: costo = 6620.0, tiempo = 3.8485 s
+
+Orden: [0, 3, 9, 7, 8, 11, 10, 18, 19, 5, 2, 1, 6, 14, 17, 4, 16, 13, 12, 15]
