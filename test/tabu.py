@@ -37,7 +37,7 @@ def compare_tabu_search(num_runways, case_file="1"):
             print(f"--- Tamaño de lista tabú: {tabu_size} ---")
 
             start_td = process_time()
-            _, cost_det_tabu, _ = tabu_search(case,
+            order, cost_det_tabu, _ = tabu_search(case,
                                               initial_order=order_det,
                                               num_runways=num_runways,
                                               max_iter=50,
@@ -45,9 +45,10 @@ def compare_tabu_search(num_runways, case_file="1"):
                                               config=1)
             time_td = process_time() - start_td
             print(f"Tabu Determinista: costo = {cost_det_tabu:.1f}, tiempo = {time_td:.4f} s")
+            print(f"Orden: {order}\n")
 
             start_ts = process_time()
-            _, cost_sto_tabu, _ = tabu_search(case,
+            order, cost_sto_tabu, _ = tabu_search(case,
                                               initial_order=order_sto,
                                               num_runways=num_runways,
                                               max_iter=50,
@@ -55,6 +56,7 @@ def compare_tabu_search(num_runways, case_file="1"):
                                               config=2)
             time_ts = process_time() - start_ts
             print(f"Tabu Estocástico: costo = {cost_sto_tabu:.1f}, tiempo = {time_ts:.4f} s\n")
+            print(f"Orden: {order}\n")
 
             det_costs.append(cost_det_tabu)
             sto_costs.append(cost_sto_tabu)
