@@ -1,0 +1,30 @@
+Ingrese el número de pistas (1 o 2): 2
+Ingrese el número del archivo de caso: 2
+
+=== Caso 2 ===
+Greedy determinista:
+  Costo = 60.0, Tiempo = 0.0020 segundos
+  Orden determinista: [0, 5, 7, 3, 11, 9, 8, 10, 2, 18, 19, 1, 6, 14, 4, 17, 13, 12, 16, 15]
+
+Greedy estocástico:
+  Iteración  1: costo = 5670.0, tiempo = 0.0026 segundos
+  Iteración  2: costo = 4770.0, tiempo = 0.0028 segundos
+  Iteración  3: costo = 6570.0, tiempo = 0.0020 segundos
+  Iteración  4: costo = 5100.0, tiempo = 0.0025 segundos
+  Iteración  5: costo = 4650.0, tiempo = 0.0019 segundos
+  Iteración  6: costo = 5550.0, tiempo = 0.0023 segundos
+  Iteración  7: costo = 4050.0, tiempo = 0.0020 segundos
+  Iteración  8: costo = 3690.0, tiempo = 0.0028 segundos
+  Iteración  9: costo = 5610.0, tiempo = 0.0024 segundos
+  Iteración 10: costo = 5940.0, tiempo = 0.0027 segundos
+
+Promedio estocástico:
+  Costo promedio  = 5160.0, Tiempo promedio = 0.0024 segundos
+
+  Mejor orden estocástico (Iteración 8): [5, 7, 8, 11, 9, 2, 0, 10, 18, 3, 1, 19, 14, 4, 6, 17, 13, 12, 16, 15]
+
+Tabla comparativa:
+Promedio Costo - Greedy Determinista: 60.0
+Promedio Costo - Greedy Estocástico: 5160.0
+Promedio Tiempo de CPU - Greedy Determinista: 0.002049 segundos
+Promedio Tiempo de CPU - Greedy Estocástico: 0.002410 segundos

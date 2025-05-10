@@ -1,0 +1,30 @@
+Ingrese el número de pistas (1 o 2): 2
+Ingrese el número del archivo de caso: 4
+
+=== Caso 4 ===
+Greedy determinista:
+  Costo = 617.1, Tiempo = 0.1412 segundos
+  Orden determinista: [0, 1, 5, 9, 2, 7, 3, 6, 8, 4, 11, 12, 10, 13, 15, 16, 17, 14, 19, 18, 23, 21, 22, 20, 24, 26, 29, 30, 28, 25, 33, 27, 32, 34, 31, 35, 36, 39, 37, 40, 38, 43, 46, 41, 44, 45, 42, 49, 50, 47, 48, 51, 53, 52, 54, 58, 56, 57, 55, 59, 60, 61, 62, 63, 66, 65, 67, 64, 68, 69, 71, 70, 72, 73, 74, 76, 75, 78, 77, 84, 79, 80, 81, 83, 82, 87, 85, 86, 89, 88, 90, 91, 92, 94, 93, 97, 95, 98, 96, 99]
+
+Greedy estocástico:
+  Iteración  1: costo = 73608.5, tiempo = 0.2538 segundos
+  Iteración  2: costo = 79267.6, tiempo = 0.2529 segundos
+  Iteración  3: costo = 74576.0, tiempo = 0.2634 segundos
+  Iteración  4: costo = 87017.1, tiempo = 0.2702 segundos
+  Iteración  5: costo = 79309.8, tiempo = 0.2782 segundos
+  Iteración  6: costo = 73868.1, tiempo = 0.2662 segundos
+  Iteración  7: costo = 85448.8, tiempo = 0.2863 segundos
+  Iteración  8: costo = 82471.7, tiempo = 0.2542 segundos
+  Iteración  9: costo = 68989.4, tiempo = 0.2366 segundos
+  Iteración 10: costo = 69720.5, tiempo = 0.2492 segundos
+
+Promedio estocástico:
+  Costo promedio  = 77427.7, Tiempo promedio = 0.2611 segundos
+
+  Mejor orden estocástico (Iteración 9): [26, 10, 14, 7, 11, 4, 21, 22, 8, 24, 33, 31, 27, 13, 20, 39, 40, 34, 1, 0, 19, 29, 2, 37, 43, 36, 28, 45, 32, 41, 46, 23, 35, 51, 44, 48, 6, 18, 12, 30, 16, 50, 5, 58, 42, 57, 54, 53, 56, 17, 52, 55, 61, 9, 67, 49, 3, 38, 25, 64, 71, 66, 62, 60, 72, 63, 69, 65, 59, 78, 74, 76, 77, 75, 70, 80, 79, 73, 15, 47, 82, 83, 81, 68, 87, 89, 84, 85, 88, 86, 91, 90, 94, 92, 93, 97, 95, 98, 96, 99]
+
+Tabla comparativa:
+Promedio Costo - Greedy Determinista: 617.1
+Promedio Costo - Greedy Estocástico: 77427.7
+Promedio Tiempo de CPU - Greedy Determinista: 0.141154 segundos
+Promedio Tiempo de CPU - Greedy Estocástico: 0.261109 segundos
