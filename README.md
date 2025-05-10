@@ -32,3 +32,5 @@ Para probar el Tabu Search ejecutar el siguiente comando:
 ```bash
 python3 -m test.tabu
 ```
+
+Al igual que en los test anteriores, se pedira ingresar el número de pistas (1 o 2) y el número de caso a probar (1-4). El código realizará una comparación entre Tabu Search con Greedy Determinista y Tabu Search con Greedy Estocástico. El código devolverá el costo y el tiempo de ejecución de cada uno de los métodos utilizando 5 configuraciones diferentes (tamaño de la tabla tabú), además de generar gráficos que muestren la evolución de los costos vs el tamaño de la tabla.
