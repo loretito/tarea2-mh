@@ -1,0 +1,471 @@
+Ingrese el número de pistas (1 o 2): 1
+Ingrese el número del archivo de caso: 4
+
+=== Caso 4 ===
+
+→ Costo de la solución determinista: 14265.9
+
+→ Costo de la solución determinista: 14265.9
+
+→ Costo de la solución determinista: 14265.9
+
+→ Costo de la solución determinista: 14265.9
+
+→ Costo de la solución determinista: 14265.9
+
+→ Costo de la solución determinista: 14265.9
+
+→ Costo de la solución determinista: 14265.9
+
+→ Costo de la solución determinista: 14265.9
+
+→ Costo de la solución determinista: 14265.9
+
+→ Costo de la solución determinista: 14265.9
+✨ Mejor solución luego de GRASP con greedy determinista: [0, 1, 5, 9, 2, 7, 3, 6, 8, 4, 11, 12, 10, 13, 15, 16, 17, 14, 19, 18, 23, 21, 22, 20, 24, 26, 29, 30, 28, 25, 33, 27, 32, 34, 31, 35, 36, 39, 37, 40, 38, 43, 46, 41, 44, 45, 42, 49, 50, 47, 48, 51, 53, 52, 54, 58, 56, 57, 55, 59, 60, 61, 62, 63, 66, 65, 67, 64, 68, 69, 71, 70, 72, 73, 74, 76, 75, 78, 77, 84, 79, 80, 81, 83, 82, 87, 85, 86, 89, 88, 90, 91, 92, 94, 93, 97, 95, 98, 96, 99] con coste 14265.9
+GRASP Determinista:
+  Costo = 14265.9, Tiempo = 4.6733 segundos
+  Orden determinista: [0, 1, 5, 9, 2, 7, 3, 6, 8, 4, 11, 12, 10, 13, 15, 16, 17, 14, 19, 18, 23, 21, 22, 20, 24, 26, 29, 30, 28, 25, 33, 27, 32, 34, 31, 35, 36, 39, 37, 40, 38, 43, 46, 41, 44, 45, 42, 49, 50, 47, 48, 51, 53, 52, 54, 58, 56, 57, 55, 59, 60, 61, 62, 63, 66, 65, 67, 64, 68, 69, 71, 70, 72, 73, 74, 76, 75, 78, 77, 84, 79, 80, 81, 83, 82, 87, 85, 86, 89, 88, 90, 91, 92, 94, 93, 97, 95, 98, 96, 99]
+
+GRASP Estocástico:
+
+Iteración 1/10
+Greedy stochastic → cost: 114274.02
+→ Costo inicial: 114274.0
+
+Iteración 2/10
+Greedy stochastic → cost: 101433.89
+→ Costo inicial: 101433.9
+
+Iteración 3/10
+Greedy stochastic → cost: 99064.81
+→ Costo inicial: 99064.8
+
+Iteración 4/10
+Greedy stochastic → cost: 91098.08
+→ Costo inicial: 91098.1
+
+Iteración 5/10
+Greedy stochastic → cost: 116852.73
+→ Costo inicial: 116852.7
+
+Iteración 6/10
+Greedy stochastic → cost: 115664.13
+→ Costo inicial: 115664.1
+
+Iteración 7/10
+Greedy stochastic → cost: 106015.93
+→ Costo inicial: 106015.9
+
+Iteración 8/10
+Greedy stochastic → cost: 100002.32
+→ Costo inicial: 100002.3
+
+Iteración 9/10
+Greedy stochastic → cost: 112875.0
+→ Costo inicial: 112875.0
+
+Iteración 10/10
+Greedy stochastic → cost: 119752.42
+→ Costo inicial: 119752.4
+✨ Mejor solución con GRASP estocástico: [15, 13, 2, 6, 9, 23, 16, 29, 32, 1, 27, 34, 17, 7, 26, 37, 28, 36, 39, 21, 0, 10, 40, 35, 5, 14, 38, 42, 3, 8, 46, 49, 41, 11, 45, 19, 44, 53, 24, 47, 50, 48, 51, 59, 4, 33, 22, 18, 58, 52, 25, 66, 12, 43, 65, 30, 63, 61, 64, 55, 54, 70, 31, 20, 68, 69, 73, 76, 75, 78, 67, 74, 57, 62, 72, 79, 77, 84, 56, 81, 87, 82, 83, 71, 60, 86, 85, 80, 89, 88, 90, 91, 92, 93, 94, 97, 95, 98, 96, 99] con coste 91098.1
+
+  Iteración  1: costo = 91098.1, tiempo = 5.3319 segundos
+
+Iteración 1/10
+Greedy stochastic → cost: 100150.11
+→ Costo inicial: 100150.1
+
+Iteración 2/10
+Greedy stochastic → cost: 101688.66
+→ Costo inicial: 101688.7
+
+Iteración 3/10
+Greedy stochastic → cost: 109216.2
+→ Costo inicial: 109216.2
+
+Iteración 4/10
+Greedy stochastic → cost: 105694.12
+→ Costo inicial: 105694.1
+
+Iteración 5/10
+Greedy stochastic → cost: 110689.0
+→ Costo inicial: 110689.0
+
+Iteración 6/10
+Greedy stochastic → cost: 104667.48
+→ Costo inicial: 104667.5
+
+Iteración 7/10
+Greedy stochastic → cost: 102219.53
+→ Costo inicial: 102219.5
+
+Iteración 8/10
+Greedy stochastic → cost: 111181.62
+→ Costo inicial: 111181.6
+
+Iteración 9/10
+Greedy stochastic → cost: 110711.8
+→ Costo inicial: 110711.8
+
+Iteración 10/10
+Greedy stochastic → cost: 103204.2
+→ Costo inicial: 103204.2
+✨ Mejor solución con GRASP estocástico: [24, 17, 16, 33, 22, 6, 4, 10, 27, 29, 5, 11, 35, 31, 28, 40, 39, 30, 43, 15, 37, 1, 21, 14, 34, 9, 44, 12, 32, 49, 48, 50, 8, 19, 18, 53, 3, 36, 54, 26, 57, 20, 13, 47, 56, 2, 25, 23, 7, 60, 45, 46, 59, 0, 62, 41, 64, 55, 67, 52, 61, 51, 72, 71, 63, 74, 70, 76, 69, 68, 58, 75, 38, 84, 78, 77, 65, 80, 83, 66, 87, 82, 42, 86, 73, 85, 89, 81, 88, 91, 92, 90, 79, 94, 93, 97, 95, 98, 96, 99] con coste 100150.1
+
+  Iteración  2: costo = 100150.1, tiempo = 3.8519 segundos
+
+Iteración 1/10
+Greedy stochastic → cost: 110126.42
+→ Costo inicial: 110126.4
+
+Iteración 2/10
+Greedy stochastic → cost: 109764.67
+→ Costo inicial: 109764.7
+
+Iteración 3/10
+Greedy stochastic → cost: 110885.88
+→ Costo inicial: 110885.9
+
+Iteración 4/10
+Greedy stochastic → cost: 102647.49
+→ Costo inicial: 102647.5
+
+Iteración 5/10
+Greedy stochastic → cost: 112264.41
+→ Costo inicial: 112264.4
+
+Iteración 6/10
+Greedy stochastic → cost: 95083.05
+→ Costo inicial: 95083.1
+
+Iteración 7/10
+Greedy stochastic → cost: 106019.65
+→ Costo inicial: 106019.6
+
+Iteración 8/10
+Greedy stochastic → cost: 97460.3
+→ Costo inicial: 97460.3
+
+Iteración 9/10
+Greedy stochastic → cost: 108071.18
+→ Costo inicial: 108071.2
+
+Iteración 10/10
+Greedy stochastic → cost: 104560.19
+→ Costo inicial: 104560.2
+✨ Mejor solución con GRASP estocástico: [30, 25, 28, 6, 24, 1, 12, 18, 22, 10, 3, 32, 29, 14, 0, 34, 37, 40, 2, 43, 35, 8, 21, 23, 19, 15, 27, 42, 7, 45, 16, 48, 20, 46, 33, 26, 39, 36, 53, 11, 9, 17, 50, 54, 52, 55, 57, 59, 47, 62, 31, 51, 41, 63, 44, 49, 68, 13, 69, 67, 64, 5, 65, 71, 72, 58, 61, 60, 38, 73, 76, 74, 84, 79, 4, 56, 70, 78, 81, 83, 77, 82, 87, 66, 80, 75, 89, 85, 90, 88, 91, 92, 86, 94, 93, 97, 95, 98, 96, 99] con coste 95083.1
+
+  Iteración  3: costo = 95083.1, tiempo = 3.8140 segundos
+
+Iteración 1/10
+Greedy stochastic → cost: 112147.6
+→ Costo inicial: 112147.6
+
+Iteración 2/10
+Greedy stochastic → cost: 96416.33
+→ Costo inicial: 96416.3
+
+Iteración 3/10
+Greedy stochastic → cost: 101741.59
+→ Costo inicial: 101741.6
+
+Iteración 4/10
+Greedy stochastic → cost: 113200.26
+→ Costo inicial: 113200.3
+
+Iteración 5/10
+Greedy stochastic → cost: 95613.6
+→ Costo inicial: 95613.6
+
+Iteración 6/10
+Greedy stochastic → cost: 110458.52
+→ Costo inicial: 110458.5
+
+Iteración 7/10
+Greedy stochastic → cost: 105527.1
+→ Costo inicial: 105527.1
+
+Iteración 8/10
+Greedy stochastic → cost: 102232.92
+→ Costo inicial: 102232.9
+
+Iteración 9/10
+Greedy stochastic → cost: 96081.0
+→ Costo inicial: 96081.0
+
+Iteración 10/10
+Greedy stochastic → cost: 105693.24
+→ Costo inicial: 105693.2
+✨ Mejor solución con GRASP estocástico: [5, 25, 13, 12, 18, 1, 24, 14, 29, 33, 3, 30, 22, 36, 0, 40, 20, 38, 2, 21, 4, 23, 6, 45, 15, 26, 34, 7, 42, 43, 8, 44, 51, 31, 50, 46, 54, 11, 10, 39, 16, 28, 47, 57, 55, 58, 37, 32, 56, 27, 35, 53, 17, 59, 67, 61, 66, 63, 64, 9, 68, 60, 41, 62, 52, 19, 48, 70, 69, 76, 75, 72, 74, 79, 65, 80, 78, 71, 73, 81, 82, 49, 84, 87, 83, 86, 88, 85, 77, 91, 90, 89, 92, 94, 93, 97, 95, 98, 96, 99] con coste 95613.6
+
+  Iteración  4: costo = 95613.6, tiempo = 3.8643 segundos
+
+Iteración 1/10
+Greedy stochastic → cost: 102482.4
+→ Costo inicial: 102482.4
+
+Iteración 2/10
+Greedy stochastic → cost: 107139.77
+→ Costo inicial: 107139.8
+
+Iteración 3/10
+Greedy stochastic → cost: 102017.61
+→ Costo inicial: 102017.6
+
+Iteración 4/10
+Greedy stochastic → cost: 110757.17
+→ Costo inicial: 110757.2
+
+Iteración 5/10
+Greedy stochastic → cost: 108166.1
+→ Costo inicial: 108166.1
+
+Iteración 6/10
+Greedy stochastic → cost: 108251.53
+→ Costo inicial: 108251.5
+
+Iteración 7/10
+Greedy stochastic → cost: 97832.79
+→ Costo inicial: 97832.8
+
+Iteración 8/10
+Greedy stochastic → cost: 111566.08
+→ Costo inicial: 111566.1
+
+Iteración 9/10
+Greedy stochastic → cost: 102940.61
+→ Costo inicial: 102940.6
+
+Iteración 10/10
+Greedy stochastic → cost: 106897.03
+→ Costo inicial: 106897.0
+✨ Mejor solución con GRASP estocástico: [10, 12, 21, 23, 27, 22, 20, 28, 6, 19, 5, 14, 39, 13, 31, 35, 33, 17, 0, 16, 30, 38, 18, 29, 40, 42, 45, 7, 9, 41, 24, 11, 47, 37, 26, 43, 54, 8, 58, 4, 52, 53, 50, 56, 1, 44, 36, 59, 25, 61, 62, 32, 3, 63, 51, 65, 68, 15, 34, 67, 48, 64, 70, 55, 72, 73, 2, 46, 76, 66, 78, 77, 69, 84, 75, 57, 60, 71, 83, 81, 74, 79, 80, 49, 82, 86, 89, 88, 85, 91, 90, 92, 94, 87, 93, 97, 95, 98, 96, 99] con coste 97832.8
+
+  Iteración  5: costo = 97832.8, tiempo = 4.0661 segundos
+
+Iteración 1/10
+Greedy stochastic → cost: 102951.03
+→ Costo inicial: 102951.0
+
+Iteración 2/10
+Greedy stochastic → cost: 102060.89
+→ Costo inicial: 102060.9
+
+Iteración 3/10
+Greedy stochastic → cost: 106788.99
+→ Costo inicial: 106789.0
+
+Iteración 4/10
+Greedy stochastic → cost: 117552.54
+→ Costo inicial: 117552.5
+
+Iteración 5/10
+Greedy stochastic → cost: 96287.0
+→ Costo inicial: 96287.0
+
+Iteración 6/10
+Greedy stochastic → cost: 106487.32
+→ Costo inicial: 106487.3
+
+Iteración 7/10
+Greedy stochastic → cost: 104642.84
+→ Costo inicial: 104642.8
+
+Iteración 8/10
+Greedy stochastic → cost: 102485.9
+→ Costo inicial: 102485.9
+
+Iteración 9/10
+Greedy stochastic → cost: 95456.02
+→ Costo inicial: 95456.0
+
+Iteración 10/10
+Greedy stochastic → cost: 103875.17
+→ Costo inicial: 103875.2
+✨ Mejor solución con GRASP estocástico: [18, 26, 16, 3, 9, 28, 20, 10, 4, 25, 21, 35, 27, 22, 0, 19, 13, 38, 40, 36, 1, 8, 12, 30, 39, 14, 44, 32, 23, 24, 34, 49, 15, 43, 51, 48, 29, 31, 52, 58, 46, 5, 41, 42, 59, 56, 45, 61, 60, 17, 62, 55, 2, 63, 65, 67, 54, 7, 50, 66, 70, 11, 72, 71, 68, 73, 69, 57, 53, 76, 75, 74, 84, 33, 37, 80, 6, 79, 64, 77, 78, 47, 85, 83, 87, 81, 86, 89, 82, 90, 88, 91, 92, 94, 93, 97, 95, 98, 96, 99] con coste 95456.0
+
+  Iteración  6: costo = 95456.0, tiempo = 3.9771 segundos
+
+Iteración 1/10
+Greedy stochastic → cost: 100189.95
+→ Costo inicial: 100189.9
+
+Iteración 2/10
+Greedy stochastic → cost: 115329.33
+→ Costo inicial: 115329.3
+
+Iteración 3/10
+Greedy stochastic → cost: 103672.45
+→ Costo inicial: 103672.4
+
+Iteración 4/10
+Greedy stochastic → cost: 105214.67
+→ Costo inicial: 105214.7
+
+Iteración 5/10
+Greedy stochastic → cost: 114076.53
+→ Costo inicial: 114076.5
+
+Iteración 6/10
+Greedy stochastic → cost: 110100.79
+→ Costo inicial: 110100.8
+
+Iteración 7/10
+Greedy stochastic → cost: 97899.49
+→ Costo inicial: 97899.5
+
+Iteración 8/10
+Greedy stochastic → cost: 105778.19
+→ Costo inicial: 105778.2
+
+Iteración 9/10
+Greedy stochastic → cost: 105100.75
+→ Costo inicial: 105100.8
+
+Iteración 10/10
+Greedy stochastic → cost: 113545.86
+→ Costo inicial: 113545.9
+✨ Mejor solución con GRASP estocástico: [3, 15, 21, 33, 30, 28, 24, 9, 5, 32, 7, 18, 6, 16, 2, 37, 35, 38, 29, 36, 11, 40, 44, 34, 14, 31, 41, 22, 50, 0, 49, 13, 10, 45, 46, 17, 53, 42, 51, 47, 58, 19, 48, 12, 26, 56, 54, 59, 8, 23, 39, 27, 25, 66, 1, 62, 43, 68, 60, 61, 57, 67, 65, 63, 4, 64, 72, 76, 75, 73, 70, 55, 52, 79, 78, 74, 84, 77, 80, 81, 82, 69, 85, 20, 83, 71, 86, 87, 88, 89, 92, 91, 90, 94, 93, 97, 95, 98, 96, 99] con coste 97899.5
+
+  Iteración  7: costo = 97899.5, tiempo = 4.2009 segundos
+
+Iteración 1/10
+Greedy stochastic → cost: 99146.39
+→ Costo inicial: 99146.4
+
+Iteración 2/10
+Greedy stochastic → cost: 102692.0
+→ Costo inicial: 102692.0
+
+Iteración 3/10
+Greedy stochastic → cost: 111658.96
+→ Costo inicial: 111659.0
+
+Iteración 4/10
+Greedy stochastic → cost: 102551.56
+→ Costo inicial: 102551.6
+
+Iteración 5/10
+Greedy stochastic → cost: 109128.98
+→ Costo inicial: 109129.0
+
+Iteración 6/10
+Greedy stochastic → cost: 101131.52
+→ Costo inicial: 101131.5
+
+Iteración 7/10
+Greedy stochastic → cost: 107811.88
+→ Costo inicial: 107811.9
+
+Iteración 8/10
+Greedy stochastic → cost: 106825.89
+→ Costo inicial: 106825.9
+
+Iteración 9/10
+Greedy stochastic → cost: 109128.69
+→ Costo inicial: 109128.7
+
+Iteración 10/10
+Greedy stochastic → cost: 97077.04
+→ Costo inicial: 97077.0
+✨ Mejor solución con GRASP estocástico: [22, 25, 24, 13, 14, 15, 26, 8, 33, 29, 0, 17, 7, 35, 27, 32, 36, 34, 28, 5, 21, 11, 31, 1, 16, 45, 2, 46, 37, 38, 50, 12, 51, 30, 53, 47, 9, 48, 6, 44, 49, 58, 23, 41, 55, 54, 4, 18, 19, 59, 66, 61, 52, 63, 57, 60, 68, 3, 42, 56, 40, 67, 71, 62, 64, 73, 76, 20, 69, 10, 78, 65, 74, 84, 77, 75, 81, 70, 39, 82, 87, 80, 43, 72, 83, 79, 86, 88, 90, 85, 91, 92, 89, 94, 93, 97, 95, 98, 96, 99] con coste 97077.0
+
+  Iteración  8: costo = 97077.0, tiempo = 3.9800 segundos
+
+Iteración 1/10
+Greedy stochastic → cost: 119098.72
+→ Costo inicial: 119098.7
+
+Iteración 2/10
+Greedy stochastic → cost: 100074.65
+→ Costo inicial: 100074.6
+
+Iteración 3/10
+Greedy stochastic → cost: 96371.61
+→ Costo inicial: 96371.6
+
+Iteración 4/10
+Greedy stochastic → cost: 108511.6
+→ Costo inicial: 108511.6
+
+Iteración 5/10
+Greedy stochastic → cost: 104913.4
+→ Costo inicial: 104913.4
+
+Iteración 6/10
+Greedy stochastic → cost: 106044.5
+→ Costo inicial: 106044.5
+
+Iteración 7/10
+Greedy stochastic → cost: 120238.3
+→ Costo inicial: 120238.3
+
+Iteración 8/10
+Greedy stochastic → cost: 104006.03
+→ Costo inicial: 104006.0
+
+Iteración 9/10
+Greedy stochastic → cost: 108976.24
+→ Costo inicial: 108976.2
+
+Iteración 10/10
+Greedy stochastic → cost: 107396.82
+→ Costo inicial: 107396.8
+✨ Mejor solución con GRASP estocástico: [7, 19, 16, 1, 4, 24, 25, 9, 32, 12, 17, 15, 8, 35, 30, 26, 13, 37, 27, 3, 28, 0, 22, 21, 46, 43, 6, 41, 49, 11, 23, 20, 48, 50, 33, 10, 51, 5, 18, 47, 2, 58, 44, 31, 38, 42, 34, 54, 52, 60, 66, 56, 62, 36, 29, 57, 45, 40, 39, 61, 69, 71, 64, 68, 14, 65, 74, 55, 73, 72, 75, 63, 76, 70, 59, 84, 53, 77, 79, 80, 82, 78, 87, 86, 81, 83, 88, 67, 89, 90, 91, 92, 85, 94, 93, 97, 95, 98, 96, 99] con coste 96371.6
+
+  Iteración  9: costo = 96371.6, tiempo = 4.1997 segundos
+
+Iteración 1/10
+Greedy stochastic → cost: 107589.67
+→ Costo inicial: 107589.7
+
+Iteración 2/10
+Greedy stochastic → cost: 104792.33
+→ Costo inicial: 104792.3
+
+Iteración 3/10
+Greedy stochastic → cost: 118149.23
+→ Costo inicial: 118149.2
+
+Iteración 4/10
+Greedy stochastic → cost: 113529.18000000001
+→ Costo inicial: 113529.2
+
+Iteración 5/10
+Greedy stochastic → cost: 103604.96
+→ Costo inicial: 103605.0
+
+Iteración 6/10
+Greedy stochastic → cost: 105503.8
+→ Costo inicial: 105503.8
+
+Iteración 7/10
+Greedy stochastic → cost: 110864.5
+→ Costo inicial: 110864.5
+
+Iteración 8/10
+Greedy stochastic → cost: 105261.3
+→ Costo inicial: 105261.3
+
+Iteración 9/10
+Greedy stochastic → cost: 99762.04
+→ Costo inicial: 99762.0
+
+Iteración 10/10
+Greedy stochastic → cost: 99189.82
+→ Costo inicial: 99189.8
+✨ Mejor solución con GRASP estocástico: [17, 6, 10, 20, 33, 12, 18, 7, 24, 29, 32, 5, 19, 23, 31, 9, 35, 25, 8, 13, 21, 43, 3, 37, 22, 11, 30, 41, 28, 46, 50, 45, 49, 38, 4, 14, 52, 26, 27, 56, 51, 58, 55, 36, 53, 34, 40, 42, 48, 59, 16, 2, 62, 54, 1, 0, 64, 47, 67, 68, 71, 70, 66, 69, 57, 63, 74, 39, 75, 65, 44, 72, 77, 76, 78, 15, 81, 60, 73, 82, 79, 87, 83, 61, 80, 84, 88, 86, 85, 89, 91, 90, 92, 94, 93, 97, 95, 98, 96, 99] con coste 99189.8
+
+  Iteración 10: costo = 99189.8, tiempo = 4.0725 segundos
+
+Promedio estocástico:
+  Costo promedio  = 96577.2, Tiempo promedio = 4.1359 segundos
+
+  Mejor orden estocástico (Iteración 1): [15, 13, 2, 6, 9, 23, 16, 29, 32, 1, 27, 34, 17, 7, 26, 37, 28, 36, 39, 21, 0, 10, 40, 35, 5, 14, 38, 42, 3, 8, 46, 49, 41, 11, 45, 19, 44, 53, 24, 47, 50, 48, 51, 59, 4, 33, 22, 18, 58, 52, 25, 66, 12, 43, 65, 30, 63, 61, 64, 55, 54, 70, 31, 20, 68, 69, 73, 76, 75, 78, 67, 74, 57, 62, 72, 79, 77, 84, 56, 81, 87, 82, 83, 71, 60, 86, 85, 80, 89, 88, 90, 91, 92, 93, 94, 97, 95, 98, 96, 99]
+
+Tabla comparativa:
+Promedio Costo - GRASP Determinista: 14265.9
+Promedio Costo - GRASP Estocástico: 96577.2
+Promedio Tiempo de CPU - GRASP Determinista: 4.673338 segundos
+Promedio Tiempo de CPU - GRASP Estocástico: 4.135856 segundos

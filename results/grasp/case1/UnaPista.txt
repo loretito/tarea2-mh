@@ -1,0 +1,471 @@
+Ingrese el número de pistas (1 o 2): 1
+Ingrese el número del archivo de caso: 1
+
+=== Caso 1 ===
+
+→ Costo de la solución determinista: 2030.0
+
+→ Costo de la solución determinista: 2030.0
+
+→ Costo de la solución determinista: 2030.0
+
+→ Costo de la solución determinista: 2030.0
+
+→ Costo de la solución determinista: 2030.0
+
+→ Costo de la solución determinista: 2030.0
+
+→ Costo de la solución determinista: 2030.0
+
+→ Costo de la solución determinista: 2030.0
+
+→ Costo de la solución determinista: 2030.0
+
+→ Costo de la solución determinista: 2030.0
+✨ Mejor solución luego de GRASP con greedy determinista: [2, 3, 4, 5, 7, 6, 8, 9, 0, 13, 12, 1, 11, 10, 14] con coste 2030.0
+GRASP Determinista:
+  Costo = 2030.0, Tiempo = 0.0405 segundos
+  Orden determinista: [2, 3, 4, 5, 7, 6, 8, 9, 0, 13, 12, 1, 11, 10, 14]
+
+GRASP Estocástico:
+
+Iteración 1/10
+Greedy stochastic → cost: 10260.0
+→ Costo inicial: 10260.0
+
+Iteración 2/10
+Greedy stochastic → cost: 6780.0
+→ Costo inicial: 6780.0
+
+Iteración 3/10
+Greedy stochastic → cost: 10260.0
+→ Costo inicial: 10260.0
+
+Iteración 4/10
+Greedy stochastic → cost: 7210.0
+→ Costo inicial: 7210.0
+
+Iteración 5/10
+Greedy stochastic → cost: 5760.0
+→ Costo inicial: 5760.0
+
+Iteración 6/10
+Greedy stochastic → cost: 7750.0
+→ Costo inicial: 7750.0
+
+Iteración 7/10
+Greedy stochastic → cost: 6780.0
+→ Costo inicial: 6780.0
+
+Iteración 8/10
+Greedy stochastic → cost: 7360.0
+→ Costo inicial: 7360.0
+
+Iteración 9/10
+Greedy stochastic → cost: 7750.0
+→ Costo inicial: 7750.0
+
+Iteración 10/10
+Greedy stochastic → cost: 6630.0
+→ Costo inicial: 6630.0
+✨ Mejor solución con GRASP estocástico: [2, 3, 5, 4, 6, 9, 8, 0, 7, 13, 12, 1, 11, 10, 14] con coste 5760.0
+
+  Iteración  1: costo = 5760.0, tiempo = 0.0365 segundos
+
+Iteración 1/10
+Greedy stochastic → cost: 2220.0
+→ Costo inicial: 2220.0
+
+Iteración 2/10
+Greedy stochastic → cost: 5090.0
+→ Costo inicial: 5090.0
+
+Iteración 3/10
+Greedy stochastic → cost: 4260.0
+→ Costo inicial: 4260.0
+
+Iteración 4/10
+Greedy stochastic → cost: 2940.0
+→ Costo inicial: 2940.0
+
+Iteración 5/10
+Greedy stochastic → cost: 4940.0
+→ Costo inicial: 4940.0
+
+Iteración 6/10
+Greedy stochastic → cost: 10260.0
+→ Costo inicial: 10260.0
+
+Iteración 7/10
+Greedy stochastic → cost: 6780.0
+→ Costo inicial: 6780.0
+
+Iteración 8/10
+Greedy stochastic → cost: 9100.0
+→ Costo inicial: 9100.0
+
+Iteración 9/10
+Greedy stochastic → cost: 9100.0
+→ Costo inicial: 9100.0
+
+Iteración 10/10
+Greedy stochastic → cost: 7360.0
+→ Costo inicial: 7360.0
+✨ Mejor solución con GRASP estocástico: [2, 3, 4, 7, 8, 5, 6, 9, 13, 0, 12, 1, 11, 10, 14] con coste 2220.0
+
+  Iteración  2: costo = 2220.0, tiempo = 0.0357 segundos
+
+Iteración 1/10
+Greedy stochastic → cost: 6060.0
+→ Costo inicial: 6060.0
+
+Iteración 2/10
+Greedy stochastic → cost: 6780.0
+→ Costo inicial: 6780.0
+
+Iteración 3/10
+Greedy stochastic → cost: 4140.0
+→ Costo inicial: 4140.0
+
+Iteración 4/10
+Greedy stochastic → cost: 10260.0
+→ Costo inicial: 10260.0
+
+Iteración 5/10
+Greedy stochastic → cost: 7170.0
+→ Costo inicial: 7170.0
+
+Iteración 6/10
+Greedy stochastic → cost: 6890.0
+→ Costo inicial: 6890.0
+
+Iteración 7/10
+Greedy stochastic → cost: 6590.0
+→ Costo inicial: 6590.0
+
+Iteración 8/10
+Greedy stochastic → cost: 6050.0
+→ Costo inicial: 6050.0
+
+Iteración 9/10
+Greedy stochastic → cost: 7470.0
+→ Costo inicial: 7470.0
+
+Iteración 10/10
+Greedy stochastic → cost: 7750.0
+→ Costo inicial: 7750.0
+✨ Mejor solución con GRASP estocástico: [3, 4, 5, 6, 2, 8, 9, 7, 13, 0, 12, 1, 11, 10, 14] con coste 4140.0
+
+  Iteración  3: costo = 4140.0, tiempo = 0.0350 segundos
+
+Iteración 1/10
+Greedy stochastic → cost: 7470.0
+→ Costo inicial: 7470.0
+
+Iteración 2/10
+Greedy stochastic → cost: 7360.0
+→ Costo inicial: 7360.0
+
+Iteración 3/10
+Greedy stochastic → cost: 6050.0
+→ Costo inicial: 6050.0
+
+Iteración 4/10
+Greedy stochastic → cost: 7750.0
+→ Costo inicial: 7750.0
+
+Iteración 5/10
+Greedy stochastic → cost: 10260.0
+→ Costo inicial: 10260.0
+
+Iteración 6/10
+Greedy stochastic → cost: 9100.0
+→ Costo inicial: 9100.0
+
+Iteración 7/10
+Greedy stochastic → cost: 9680.0
+→ Costo inicial: 9680.0
+
+Iteración 8/10
+Greedy stochastic → cost: 7470.0
+→ Costo inicial: 7470.0
+
+Iteración 9/10
+Greedy stochastic → cost: 9100.0
+→ Costo inicial: 9100.0
+
+Iteración 10/10
+Greedy stochastic → cost: 10260.0
+→ Costo inicial: 10260.0
+✨ Mejor solución con GRASP estocástico: [2, 5, 4, 6, 3, 8, 7, 9, 13, 0, 12, 1, 11, 10, 14] con coste 6050.0
+
+  Iteración  4: costo = 6050.0, tiempo = 0.0387 segundos
+
+Iteración 1/10
+Greedy stochastic → cost: 10260.0
+→ Costo inicial: 10260.0
+
+Iteración 2/10
+Greedy stochastic → cost: 10260.0
+→ Costo inicial: 10260.0
+
+Iteración 3/10
+Greedy stochastic → cost: 4940.0
+→ Costo inicial: 4940.0
+
+Iteración 4/10
+Greedy stochastic → cost: 9100.0
+→ Costo inicial: 9100.0
+
+Iteración 5/10
+Greedy stochastic → cost: 3810.0
+→ Costo inicial: 3810.0
+
+Iteración 6/10
+Greedy stochastic → cost: 6310.0
+→ Costo inicial: 6310.0
+
+Iteración 7/10
+Greedy stochastic → cost: 9100.0
+→ Costo inicial: 9100.0
+
+Iteración 8/10
+Greedy stochastic → cost: 10260.0
+→ Costo inicial: 10260.0
+
+Iteración 9/10
+Greedy stochastic → cost: 10260.0
+→ Costo inicial: 10260.0
+
+Iteración 10/10
+Greedy stochastic → cost: 9100.0
+→ Costo inicial: 9100.0
+✨ Mejor solución con GRASP estocástico: [2, 4, 3, 6, 8, 5, 9, 7, 13, 0, 12, 1, 11, 10, 14] con coste 3810.0
+
+  Iteración  5: costo = 3810.0, tiempo = 0.0356 segundos
+
+Iteración 1/10
+Greedy stochastic → cost: 3520.0
+→ Costo inicial: 3520.0
+
+Iteración 2/10
+Greedy stochastic → cost: 9680.0
+→ Costo inicial: 9680.0
+
+Iteración 3/10
+Greedy stochastic → cost: 6890.0
+→ Costo inicial: 6890.0
+
+Iteración 4/10
+Greedy stochastic → cost: 5070.0
+→ Costo inicial: 5070.0
+
+Iteración 5/10
+Greedy stochastic → cost: 7210.0
+→ Costo inicial: 7210.0
+
+Iteración 6/10
+Greedy stochastic → cost: 5520.0
+→ Costo inicial: 5520.0
+
+Iteración 7/10
+Greedy stochastic → cost: 10260.0
+→ Costo inicial: 10260.0
+
+Iteración 8/10
+Greedy stochastic → cost: 10260.0
+→ Costo inicial: 10260.0
+
+Iteración 9/10
+Greedy stochastic → cost: 7360.0
+→ Costo inicial: 7360.0
+
+Iteración 10/10
+Greedy stochastic → cost: 6200.0
+→ Costo inicial: 6200.0
+✨ Mejor solución con GRASP estocástico: [2, 3, 4, 7, 6, 5, 9, 0, 8, 13, 12, 1, 11, 10, 14] con coste 3520.0
+
+  Iteración  6: costo = 3520.0, tiempo = 0.0375 segundos
+
+Iteración 1/10
+Greedy stochastic → cost: 3510.0
+→ Costo inicial: 3510.0
+
+Iteración 2/10
+Greedy stochastic → cost: 9100.0
+→ Costo inicial: 9100.0
+
+Iteración 3/10
+Greedy stochastic → cost: 10260.0
+→ Costo inicial: 10260.0
+
+Iteración 4/10
+Greedy stochastic → cost: 5480.0
+→ Costo inicial: 5480.0
+
+Iteración 5/10
+Greedy stochastic → cost: 7360.0
+→ Costo inicial: 7360.0
+
+Iteración 6/10
+Greedy stochastic → cost: 6210.0
+→ Costo inicial: 6210.0
+
+Iteración 7/10
+Greedy stochastic → cost: 6630.0
+→ Costo inicial: 6630.0
+
+Iteración 8/10
+Greedy stochastic → cost: 7470.0
+→ Costo inicial: 7470.0
+
+Iteración 9/10
+Greedy stochastic → cost: 7210.0
+→ Costo inicial: 7210.0
+
+Iteración 10/10
+Greedy stochastic → cost: 9680.0
+→ Costo inicial: 9680.0
+✨ Mejor solución con GRASP estocástico: [3, 2, 4, 7, 8, 6, 9, 5, 0, 13, 12, 1, 11, 10, 14] con coste 3510.0
+
+  Iteración  7: costo = 3510.0, tiempo = 0.0378 segundos
+
+Iteración 1/10
+Greedy stochastic → cost: 7210.0
+→ Costo inicial: 7210.0
+
+Iteración 2/10
+Greedy stochastic → cost: 7170.0
+→ Costo inicial: 7170.0
+
+Iteración 3/10
+Greedy stochastic → cost: 7210.0
+→ Costo inicial: 7210.0
+
+Iteración 4/10
+Greedy stochastic → cost: 6050.0
+→ Costo inicial: 6050.0
+
+Iteración 5/10
+Greedy stochastic → cost: 6050.0
+→ Costo inicial: 6050.0
+
+Iteración 6/10
+Greedy stochastic → cost: 7210.0
+→ Costo inicial: 7210.0
+
+Iteración 7/10
+Greedy stochastic → cost: 7470.0
+→ Costo inicial: 7470.0
+
+Iteración 8/10
+Greedy stochastic → cost: 5970.0
+→ Costo inicial: 5970.0
+
+Iteración 9/10
+Greedy stochastic → cost: 7470.0
+→ Costo inicial: 7470.0
+
+Iteración 10/10
+Greedy stochastic → cost: 10260.0
+→ Costo inicial: 10260.0
+✨ Mejor solución con GRASP estocástico: [2, 4, 3, 7, 6, 9, 8, 0, 5, 13, 12, 1, 11, 10, 14] con coste 5970.0
+
+  Iteración  8: costo = 5970.0, tiempo = 0.0371 segundos
+
+Iteración 1/10
+Greedy stochastic → cost: 5630.0
+→ Costo inicial: 5630.0
+
+Iteración 2/10
+Greedy stochastic → cost: 9680.0
+→ Costo inicial: 9680.0
+
+Iteración 3/10
+Greedy stochastic → cost: 7170.0
+→ Costo inicial: 7170.0
+
+Iteración 4/10
+Greedy stochastic → cost: 7750.0
+→ Costo inicial: 7750.0
+
+Iteración 5/10
+Greedy stochastic → cost: 4840.0
+→ Costo inicial: 4840.0
+
+Iteración 6/10
+Greedy stochastic → cost: 7470.0
+→ Costo inicial: 7470.0
+
+Iteración 7/10
+Greedy stochastic → cost: 7470.0
+→ Costo inicial: 7470.0
+
+Iteración 8/10
+Greedy stochastic → cost: 7210.0
+→ Costo inicial: 7210.0
+
+Iteración 9/10
+Greedy stochastic → cost: 7360.0
+→ Costo inicial: 7360.0
+
+Iteración 10/10
+Greedy stochastic → cost: 3990.0
+→ Costo inicial: 3990.0
+✨ Mejor solución con GRASP estocástico: [3, 2, 7, 5, 4, 6, 9, 8, 13, 0, 12, 1, 11, 10, 14] con coste 3990.0
+
+  Iteración  9: costo = 3990.0, tiempo = 0.0356 segundos
+
+Iteración 1/10
+Greedy stochastic → cost: 6780.0
+→ Costo inicial: 6780.0
+
+Iteración 2/10
+Greedy stochastic → cost: 9680.0
+→ Costo inicial: 9680.0
+
+Iteración 3/10
+Greedy stochastic → cost: 10260.0
+→ Costo inicial: 10260.0
+
+Iteración 4/10
+Greedy stochastic → cost: 6050.0
+→ Costo inicial: 6050.0
+
+Iteración 5/10
+Greedy stochastic → cost: 10260.0
+→ Costo inicial: 10260.0
+
+Iteración 6/10
+Greedy stochastic → cost: 6780.0
+→ Costo inicial: 6780.0
+
+Iteración 7/10
+Greedy stochastic → cost: 7210.0
+→ Costo inicial: 7210.0
+
+Iteración 8/10
+Greedy stochastic → cost: 6890.0
+→ Costo inicial: 6890.0
+
+Iteración 9/10
+Greedy stochastic → cost: 10260.0
+→ Costo inicial: 10260.0
+
+Iteración 10/10
+Greedy stochastic → cost: 7470.0
+→ Costo inicial: 7470.0
+✨ Mejor solución con GRASP estocástico: [2, 7, 5, 3, 4, 8, 6, 9, 13, 0, 12, 1, 11, 10, 14] con coste 6050.0
+
+  Iteración 10: costo = 6050.0, tiempo = 0.0382 segundos
+
+Promedio estocástico:
+  Costo promedio  = 4502.0, Tiempo promedio = 0.0368 segundos
+
+  Mejor orden estocástico (Iteración 2): [2, 3, 4, 7, 8, 5, 6, 9, 13, 0, 12, 1, 11, 10, 14]
+
+Tabla comparativa:
+Promedio Costo - GRASP Determinista: 2030.0
+Promedio Costo - GRASP Estocástico: 4502.0
+Promedio Tiempo de CPU - GRASP Determinista: 0.040517 segundos
+Promedio Tiempo de CPU - GRASP Estocástico: 0.036778 segundos
